@@ -1,0 +1,22 @@
+# LaTeX temporary files
+report/*.aux
+report/*.log
+report/*.toc
+report/*.out
+report/*.synctex.gz
+report/*.fls
+report/*.fdb_latexmk
+
+# Node modules
+iot-oracle/bridge/node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Kiro internal
+.kiro/

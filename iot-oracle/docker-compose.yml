@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  # MQTT Broker - receives sensor data
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: aerotrack-mqtt
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    restart: unless-stopped
+
+  # Local Ethereum blockchain (Ganache)
+  ganache:
+    image: trufflesuite/ganache:latest
+    container_name: aerotrack-ganache
+    ports:
+      - "8545:8545"
+    command: >
+      --accounts 10
+      --defaultBalanceEther 100
+      --deterministic
+      --host 0.0.0.0
+    restart: unless-stopped

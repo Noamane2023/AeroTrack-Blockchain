@@ -1,0 +1,14 @@
+{
+  "name": "aerotrack-iot-bridge",
+  "version": "1.0.0",
+  "description": "MQTT to Blockchain bridge for AeroTrack IoT Oracle",
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "mqtt": "5.10.1",
+    "ethers": "6.13.4"
+  }
+}
