@@ -79,12 +79,12 @@ cd sensor && python sensor_simulator.py  # Terminal 2: Start sensor
 | Docker | Infrastructure containers |
 | LaTeX (MiKTeX) | Report compilation |
 
-## Author
+## Project Info & Authors
 
-**Noaman Makhlouf**  
-ENSEM — Ecole Nationale Superieure d'Electricite et de Mecanique  
-Universite Hassan II de Casablanca  
-Blockchain Tools & Applications — S4 2025/2026
+- **Student:** **Noaman Makhlouf**
+- **Supervisor:** **Prof. Khalid Boukhdir**
+- **Institution:** ENSEM — École Nationale Supérieure d'Électricité et de Mécanique (Université Hassan II de Casablanca)
+- **Course:** Blockchain Tools & Applications — S4 2025/2026
 
 ## License
 
